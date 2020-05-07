@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CARGANDO LA FUENTE DE GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
     <!-- CARGANDO BOOTSTRAP 4 -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- CARGANDO FONT AWESOME - PARA LOS ICONOS-->
@@ -20,10 +22,68 @@
   </head>
   
   <body>
-    <h1>Hola, Mundo!</h1>
+    <!-- MENU DE NAVEGACIÓN -->
+    <header id="menuPrincipal">
+      <div class="container pt-4 h-100">
+        <!-- BARRA SUPERIOR -->
+        <div class="row barra align-items-center justify-content-center justify-content-md-between">
+          <div class="col-12 col-md-8 logo text-center text-md-left">
+           <a href="index.html">
+            <h1 class="titulo mb-0">Arquitectura<span class="font-weight-bold">Bosque</span></h1>
+           </a>
+          </div>
+          <div class="col-auto mt-3 mt-md-0 text-center">
+            <div class="contacto d-flex align-items-center">
+              <i class="fas fa-phone-alt mr-1"></i>
+              <p class="mb-0">+54 9 381 6974118</p>
+            </div>
+          </div>
+        </div>
+        <!-- MENU -->
+        <div class="row menu no-gutters py-3 justify-content-center justify-content-lg-end">
+          <div class="col-auto">
+            <nav class="navbar navbar-expand-md navbar-dark justify-content-center px-lg-0">
+              <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#menuDeNavegacion" aria-controls="menuDeNavegacion"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="menuDeNavegacion">
+                <ul class="list-unstyled d-md-flex flex-md-row mb-0 text-center text-lg-right">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Modelos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pr-lg-0 border-right-0" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- INFORMACIÓN INFERIOR -->
+        <div class="row informacionInferior h-75 justify-content-center justify-content-lg-end align-items-end pb-5 pb-md-0">
+          <div class="col-auto text-center text-lg-right">
+            <h2 class="font-weight-bold">Tu casa en el bosque</h2>
+            <p>Tambien Construimos tu casa a tu gusto</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- SOBRE NOSOTROS -->
+
 
     <!-- CARGANDO JQUERY -->
-    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <!-- CARGANDO POPPER - NECESARIO PARA IMPLEMENTAR ALGUNOS COMPONENTES DE BOOTSTRAP 4 -->
     <script src="js/popper.min.js"></script>
     <!-- CARGANDO BOOTSTRAP 4 -->

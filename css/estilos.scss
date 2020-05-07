@@ -1,0 +1,71 @@
+/*
+    1. ESTILOS AL #menuPrincipal
+*/
+
+#menuPrincipal{
+    background-image: url(../images/superior.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height: 40rem;
+    color: #fff;
+    .barra{
+        .logo{
+            a{
+                color: #fff;
+                text-decoration: none;
+                h1{
+                    font-size: 2rem;
+                    font-weight: lighter;
+                }
+            }
+        }
+        .contacto{
+            font-size: 1.1rem;
+            i{
+                font-size: 2rem;
+            }
+        }
+    }
+    .menu{
+        li > a{
+            color: #fff;
+            font-size: 1rem;
+            border-right: 1px solid #fff;
+            padding: 0 1rem;
+        }
+    }
+    .informacionInferior{
+        h2{
+            font-size: 2.5rem;
+            font-weight: bolder;
+        }
+    }
+}
+
+/*
+    2. ESTILOS A #sobreNosotros
+*/
+
+
+
+/*
+    X. MEDIA QUERYS
+*/
+
+@media(min-width:768px){
+    #menuPrincipal{
+        .barra{
+            .logo{
+                a{
+                    h1{
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+
+}
