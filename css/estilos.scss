@@ -47,27 +47,60 @@
 */
 
 #sobreNosotros{
-    .bgImagen{
-        background-image: url(../images/nosotros.jpg);
-        background-repeat: no-repeat;
-        height: 35rem;
-    }
-    .bgImagenEnContextoS{
-        background-image: url(../images/nosotros.jpg);
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        height: 20rem;
-    }
     .informacion{
         background-color: #fff;
         padding: 1rem;
     }
 }
 
+/*
+    3. ESTILOS A #nuestrosModelos
+*/
+
+#nuestrosModelos{
+    .bloqueInfo{
+        background-color: #fff;
+    }
+}
+
+/*
+    4. ESTILOS A #pieDePagina
+*/
+
+#pieDePagina{
+    background-image: url(../images/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 25rem;
+    color: #fff;
+    .nav-link{
+        color: #fff;
+    }
+    .contacto{
+        font-size: 1.1rem;
+        i{
+            font-size: 2rem;
+        }
+    }
+}
 
 /*
     X. MEDIA QUERYS
 */
+
+@media(min-width:375px){
+
+}
+
+
+@media(min-width:425px){
+
+}
+
+@media(min-width:471px){
+
+}
 
 @media(min-width:576px){
     #sobreNosotros{
@@ -76,9 +109,6 @@
             background-repeat: no-repeat;
             background-position: left bottom;
             height: 35rem;
-        }
-        .bgImagenEnContextoS{
-            background-image: none;
         }
         .informacion{
             background-color: #fff;
@@ -102,6 +132,34 @@
     #sobreNosotros{
         .informacion{
             padding: 2rem;
+        }
+    }
+
+    #nuestrosModelos{
+        .bgImagenModelo1{
+            background-image: url(../images/modelo_basico.jpg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            height: 30rem;
+        }
+        .bgImagenModelo2{
+            background-image: url(../images/modelo_premier.jpg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            height: 30rem;
+        }
+        .bgImagenModelo3{
+            background-image: url(../images/modelo_elite.jpg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            height: 30rem;
+        }
+    }
+
+    #pieDePagina{
+        height: 20rem;
+        h2{
+            font-size: 3rem;
         }
     }
 }

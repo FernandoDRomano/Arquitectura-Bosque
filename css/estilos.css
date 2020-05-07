@@ -36,20 +36,37 @@
 /*
     2. ESTILOS A #sobreNosotros
 */
-#sobreNosotros .bgImagen {
-  background-image: url(../images/nosotros.jpg);
-  background-repeat: no-repeat;
-  height: 35rem;
-}
-#sobreNosotros .bgImagenEnContextoS {
-  background-image: url(../images/nosotros.jpg);
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 20rem;
-}
 #sobreNosotros .informacion {
   background-color: #fff;
   padding: 1rem;
+}
+
+/*
+    3. ESTILOS A #nuestrosModelos
+*/
+#nuestrosModelos .bloqueInfo {
+  background-color: #fff;
+}
+
+/*
+    4. ESTILOS A #pieDePagina
+*/
+#pieDePagina {
+  background-image: url(../images/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 25rem;
+  color: #fff;
+}
+#pieDePagina .nav-link {
+  color: #fff;
+}
+#pieDePagina .contacto {
+  font-size: 1.1rem;
+}
+#pieDePagina .contacto i {
+  font-size: 2rem;
 }
 
 /*
@@ -61,9 +78,6 @@
     background-repeat: no-repeat;
     background-position: left bottom;
     height: 35rem;
-  }
-  #sobreNosotros .bgImagenEnContextoS {
-    background-image: none;
   }
   #sobreNosotros .informacion {
     background-color: #fff;
@@ -77,6 +91,32 @@
 
   #sobreNosotros .informacion {
     padding: 2rem;
+  }
+
+  #nuestrosModelos .bgImagenModelo1 {
+    background-image: url(../images/modelo_basico.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 30rem;
+  }
+  #nuestrosModelos .bgImagenModelo2 {
+    background-image: url(../images/modelo_premier.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 30rem;
+  }
+  #nuestrosModelos .bgImagenModelo3 {
+    background-image: url(../images/modelo_elite.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 30rem;
+  }
+
+  #pieDePagina {
+    height: 20rem;
+  }
+  #pieDePagina h2 {
+    font-size: 3rem;
   }
 }
 @media (min-width: 992px) {
