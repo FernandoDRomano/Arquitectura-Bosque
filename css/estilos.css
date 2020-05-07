@@ -36,12 +36,59 @@
 /*
     2. ESTILOS A #sobreNosotros
 */
+#sobreNosotros .bgImagen {
+  background-image: url(../images/nosotros.jpg);
+  background-repeat: no-repeat;
+  height: 35rem;
+}
+#sobreNosotros .bgImagenEnContextoS {
+  background-image: url(../images/nosotros.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 20rem;
+}
+#sobreNosotros .informacion {
+  background-color: #fff;
+  padding: 1rem;
+}
+
 /*
     X. MEDIA QUERYS
 */
+@media (min-width: 576px) {
+  #sobreNosotros .bgImagen {
+    background-image: url(../images/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 35rem;
+  }
+  #sobreNosotros .bgImagenEnContextoS {
+    background-image: none;
+  }
+  #sobreNosotros .informacion {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+  }
+}
 @media (min-width: 768px) {
   #menuPrincipal .barra .logo a h1 {
     font-size: 2.5rem;
+  }
+
+  #sobreNosotros .informacion {
+    padding: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  #menuPrincipal .barra .contacto {
+    font-size: 1rem;
+  }
+  #menuPrincipal .barra .contacto i {
+    font-size: 1.8rem;
+  }
+
+  #sobreNosotros .informacion {
+    padding: 2rem 3.5rem;
   }
 }
 
